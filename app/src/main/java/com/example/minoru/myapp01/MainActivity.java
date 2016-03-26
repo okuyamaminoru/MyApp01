@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void changeLabel(View view) {
         TextView tv = (TextView)findViewById(R.id.myTextView);
         tv.setText("Changed?!");
-        tv. setHighlightColor(10,30,50);
+        tv. setHighlightColor(10);
     }
 
     @Override
